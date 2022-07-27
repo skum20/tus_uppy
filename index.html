@@ -13,6 +13,7 @@
       var uppy = new Uppy.Core()
         .use(Uppy.Dashboard, {
           inline: true,
+          theme: 'dark',
           target: '#drag-drop-area'
         })
         .use(Uppy.Tus, {endpoint: 'https://tusblobbackend.azurewebsites.net/uploads/'})
