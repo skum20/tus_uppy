@@ -16,7 +16,7 @@
           theme: 'dark',
           target: '#drag-drop-area'
         })
-        .use(Uppy.Tus, {endpoint: 'https://tusblobbackend.azurewebsites.net/uploads/'})
+        .use(Uppy.Tus, {endpoint: 'https://tusbackend.azurewebsites.net//uploads/'})
 
       uppy.on('complete', (result) => {
         alert("Upload complete! We’ve uploaded all files: " + result.successful.join(', '));
